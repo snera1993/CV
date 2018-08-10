@@ -20,20 +20,35 @@ body{
                 padding-bottom: 1em;
             }
 
-        }
-
-        .picture{
-            float: left;
-            // width: 10%;
-            // background: green;
-            padding: 1em 1em 1em 33em;
-
-
-            img{
-                width: 18em;
-                border: 0.1em solid white;
+            a{
+                text-decoration: none;
+                font-size: 2em;
+                color: white;
+                padding: 0 1em 0 0em;
             }
+
+            a:hover{
+                color: royalblue;
+            }
+
+            a:active{
+                color: red;
+            }
+
         }
+
+        // .picture{
+        //     float: left;
+        //     // width: 10%;
+        //     // background: green;
+        //     padding: 1em 1em 1em 33em;
+
+
+        //     img{
+        //         width: 18em;
+        //         border: 0.1em solid white;
+        //     }
+        // }
         
     }
 
@@ -87,11 +102,21 @@ body{
         }
 
         .course{
-            padding: 0em 3em 0em 3em;
-            width: 18%;
+            padding: 1em 4em 1em 3em;
+            width: 42%;
             float: left;
-            border-right: 0.1em dotted rgb(88, 88, 88);
-            height: 43em;
+            // border-right: 0.1em dotted rgb(88, 88, 88);
+            // height: 43em;
+
+            button{
+                margin-left: 14em;
+                background: gray;
+                padding: 0.4em 0.8em 0.4em 0.8em;
+                border: 0.1em solid brown;
+                border-radius: 0.2em;
+                font-family: 'Play';
+                color : white;
+            }
 
             ul{
                 display: contents;
@@ -213,6 +238,7 @@ body{
     //     background: skyblue;
     // }
 
+}
 
 
 
@@ -251,11 +277,23 @@ body{
 
 
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
 
 
+}
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   
+} 
 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   
+} 
 
-
-
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   
 }

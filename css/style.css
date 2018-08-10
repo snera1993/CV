@@ -28,14 +28,19 @@ body header .intro h1 {
   padding-bottom: 1em;
 }
 
-body header .picture {
-  float: left;
-  padding: 1em 1em 1em 33em;
+body header .intro a {
+  text-decoration: none;
+  font-size: 2em;
+  color: white;
+  padding: 0 1em 0 0em;
 }
 
-body header .picture img {
-  width: 18em;
-  border: 0.1em solid white;
+body header .intro a:hover {
+  color: royalblue;
+}
+
+body header .intro a:active {
+  color: red;
 }
 
 body nav {
@@ -93,11 +98,19 @@ body .academicDetails h2 {
 }
 
 body .academicDetails .course {
-  padding: 0em 3em 0em 3em;
-  width: 18%;
+  padding: 1em 4em 1em 3em;
+  width: 42%;
   float: left;
-  border-right: 0.1em dotted #585858;
-  height: 43em;
+}
+
+body .academicDetails .course button {
+  margin-left: 14em;
+  background: gray;
+  padding: 0.4em 0.8em 0.4em 0.8em;
+  border: 0.1em solid brown;
+  border-radius: 0.2em;
+  font-family: 'Play';
+  color: white;
 }
 
 body .academicDetails .course ul {
@@ -207,4 +220,9 @@ body .contactMe .address {
   width: 40%;
   float: left;
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 /*# sourceMappingURL=style.css.map */
