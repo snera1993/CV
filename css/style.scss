@@ -290,10 +290,491 @@ body{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-   
+    @import url('https://fonts.googleapis.com/css?family=Play');
+
+    body{
+        display: grid;
+        grid-template-columns: 16;
+        grid-template-rows: 16;
+        margin: 0px;
+        font-family: 'Play', sans-serif;
+    
+        header{
+            grid-column: 1/17;
+            background-size: cover;
+            .intro{
+                padding: 2em;
+                color: rgb(255, 255, 255);
+                width: 40%;
+                float: left;
+    
+                h1{
+                    padding-bottom: 1em;
+                }
+    
+                a{
+                    text-decoration: none;
+                    font-size: 2em;
+                    color: blue;
+                    padding: 0 1em 0 0em;
+                }
+    
+                a:hover{
+                    color: royalblue;
+                }
+    
+                a:active{
+                    color: red;
+                }
+    
+            }
+    
+            // .picture{
+            //     float: left;
+            //     // width: 10%;
+            //     // background: green;
+            //     padding: 1em 1em 1em 33em;
+    
+    
+            //     img{
+            //         width: 18em;
+            //         border: 0.1em solid white;
+            //     }
+            // }
+            
+        }
+    
+        nav{
+            grid-column: 1/17;
+            text-align: center;
+            background: skyblue;
+            position: sticky;
+            top: 0;
+    
+            ul{
+              display: inline-flex;
+    
+              li{
+                  list-style-type: none;
+                  padding: 0.5em 2em 0.5em 2em;
+                  font-size: 1.4em;
+                  
+                  a{
+                    text-decoration: none;
+                    color: black;
+                  }
+    
+                  a:hover{
+                    // color:grey;
+                    text-shadow: black 0.1em 0.1em 0.5em;
+                }
+    
+                a:active{
+                    color: red;
+                }
+              }
+            }
+    
+          }
+    
+        
+          .academicDetails{
+            grid-column: 1/17;
+            padding: 1em 2em 1em 2em;
+    
+            h1{
+                font-size: 1.5em;
+                padding-bottom: 0.5em;
+                border-bottom: 0.01em solid red;
+                width: 48%;
+            }
+    
+            h2{
+                padding: 1em 1em 0em 0.5em;
+            }
+    
+            .course{
+                padding: 1em 3em 1em 2em;
+                width: 40%;
+                float: left;
+                // border-right: 0.1em dotted rgb(88, 88, 88);
+                // height: 43em;
+    
+                button{
+                    margin-left: 14em;
+                    background: gray;
+                    padding: 0.4em 0.8em 0.4em 0.8em;
+                    border: 0.1em solid brown;
+                    border-radius: 0.2em;
+                    font-family: 'Play';
+                    color : white;
+                }
+    
+                ul{
+                    display: contents;
+    
+                    li{
+                        padding-bottom: 0.5em;
+                    }
+                }
+            }
+    
+          }
+    
+        .slide{
+            grid-column: 1/17;
+            background: black;
+            padding: 0em 1em 1.2em 1em;
+            color: white;
+            // position: sticky;
+            // top: 5.2em;
+            
+    
+            .logos{
+                text-align: center;
+                i{
+                    font-size: 4em;
+                    padding: 0em 0.5em 0em 0.5em;
+                    color: whitesmoke;
+                }
+            }
+        }  
+    
+    
+    
+        .work{
+            grid-column: 1/17;
+            padding: 1em 2em 2em 2em;
+    
+            h1{
+                font-size: 2em;
+                padding-bottom: 0.5em;
+                border-bottom: 0.01em solid green;
+                width: 48%;
+            }
+    
+            h2{
+                padding: 1em 1em 0em 1em;
+            }
+    
+            .workPlace{
+                padding: 0em 1em 0em 1em;
+                width: 100%;
+                // float: left;
+                border-bottom: 0.1em dotted rgb(88, 88, 88);
+                height: 35em;
+    
+                ul{
+                    display: contents;
+    
+                    li{
+                        padding-bottom: 0.5em;
+                    }
+                }
+    
+                .duties{
+                    width: 100%;
+                    float: left;
+                    padding: 1em 2.5em 1em 1em;
+                }
+            }
+    
+        }
+    
+        .references{
+            grid-column: 1/17;
+            padding: 1em 2em 2em 2em;
+            background: rgb(177, 177, 177);
+            // color: white;
+    
+            h1{
+    
+                font-size: 2em;
+                padding-bottom: 0.5em;
+                border-bottom: 0.01em solid blueviolet;
+                width: 48%;
+    
+            }
+    
+            .shoprite{
+                width: 40%;
+                float: left;
+            }
+        }
+    
+    
+        .contactMe{
+            grid-column: 1/17;
+            padding: 1em 2em 2em 2em;
+            background: black;
+            color: white;
+    
+            h1{
+    
+                font-size: 2em;
+                padding-bottom: 0.5em;
+                border-bottom: 0.01em solid skyblue;
+                width: 48%;
+    
+            }
+    
+            .address{
+                width: 40%;
+                float: left;
+            }
+        }
+    
+        // footer{
+        //     grid-column: 1/17;
+        //     padding: 1em 2em 2em 2em;
+        //     background: skyblue;
+        // }
+    
+    }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
    
+    @import url('https://fonts.googleapis.com/css?family=Play');
+
+body{
+    display: grid;
+    grid-template-columns: 16;
+    grid-template-rows: 16;
+    margin: 0px;
+    font-family: 'Play', sans-serif;
+
+    header{
+        grid-column: 1/17;
+        background-size: cover;
+        .intro{
+            padding: 2em;
+            color: rgb(255, 255, 255);
+            width: 40%;
+            float: left;
+
+            h1{
+                padding-bottom: 1em;
+            }
+
+            a{
+                text-decoration: none;
+                font-size: 2em;
+                color: green;
+                padding: 0 1em 0 0em;
+            }
+
+            a:hover{
+                color: royalblue;
+            }
+
+            a:active{
+                color: red;
+            }
+
+        }
+
+        // .picture{
+        //     float: left;
+        //     // width: 10%;
+        //     // background: green;
+        //     padding: 1em 1em 1em 33em;
+
+
+        //     img{
+        //         width: 18em;
+        //         border: 0.1em solid white;
+        //     }
+        // }
+        
+    }
+
+    nav{
+        grid-column: 1/17;
+        text-align: center;
+        background: skyblue;
+        position: sticky;
+        top: 0;
+
+        ul{
+          display: inline-flex;
+
+          li{
+              list-style-type: none;
+              padding: 0.5em 3em 0.5em 3em;
+              font-size: 1.5em;
+              
+              a{
+                text-decoration: none;
+                color: black;
+              }
+
+              a:hover{
+                // color:grey;
+                text-shadow: black 0.1em 0.1em 0.5em;
+            }
+
+            a:active{
+                color: red;
+            }
+          }
+        }
+
+      }
+
+    
+      .academicDetails{
+        grid-column: 1/17;
+        padding: 1em 2em 1em 2em;
+
+        h1{
+            font-size: 2em;
+            padding-bottom: 0.5em;
+            border-bottom: 0.01em solid red;
+            width: 48%;
+        }
+
+        h2{
+            padding: 1em 1em 0em 1em;
+        }
+
+        .course{
+            padding: 1em 4em 1em 3em;
+            width: 40%;
+            float: left;
+            // border-right: 0.1em dotted rgb(88, 88, 88);
+            // height: 43em;
+
+            button{
+                margin-left: 14em;
+                background: gray;
+                padding: 0.4em 0.8em 0.4em 0.8em;
+                border: 0.1em solid brown;
+                border-radius: 0.2em;
+                font-family: 'Play';
+                color : white;
+            }
+
+            ul{
+                display: contents;
+
+                li{
+                    padding-bottom: 0.5em;
+                }
+            }
+        }
+
+      }
+
+    .slide{
+        grid-column: 1/17;
+        background: black;
+        padding: 0em 2em 2em 2em;
+        color: white;
+        // position: sticky;
+        // top: 5.2em;
+        
+
+        .logos{
+            text-align: center;
+            i{
+                font-size: 5em;
+                padding: 0em 0.7em 0em 0.7em;
+                color: whitesmoke;
+            }
+        }
+    }  
+
+
+
+    .work{
+        grid-column: 1/17;
+        padding: 1em 2em 2em 2em;
+
+        h1{
+            font-size: 2em;
+            padding-bottom: 0.5em;
+            border-bottom: 0.01em solid green;
+            width: 48%;
+        }
+
+        h2{
+            padding: 1em 1em 0em 1em;
+        }
+
+        .workPlace{
+            padding: 0em 3em 0em 1.5em;
+            width: 43%;
+            float: left;
+            border-right: 0.1em dotted rgb(88, 88, 88);
+            height: 35em;
+
+            ul{
+                display: contents;
+
+                li{
+                    padding-bottom: 0.5em;
+                }
+            }
+
+            .duties{
+                width: 100%;
+                float: left;
+                padding: 1em 2.5em 1em 1em;
+            }
+        }
+
+    }
+
+    .references{
+        grid-column: 1/17;
+        padding: 1em 2em 2em 2em;
+        background: rgb(177, 177, 177);
+        // color: white;
+
+        h1{
+
+            font-size: 2em;
+            padding-bottom: 0.5em;
+            border-bottom: 0.01em solid blueviolet;
+            width: 48%;
+
+        }
+
+        .shoprite{
+            width: 40%;
+            float: left;
+        }
+    }
+
+
+    .contactMe{
+        grid-column: 1/17;
+        padding: 1em 2em 2em 2em;
+        background: black;
+        color: white;
+
+        h1{
+
+            font-size: 2em;
+            padding-bottom: 0.5em;
+            border-bottom: 0.01em solid skyblue;
+            width: 48%;
+
+        }
+
+        .address{
+            width: 40%;
+            float: left;
+        }
+    }
+
+    // footer{
+    //     grid-column: 1/17;
+    //     padding: 1em 2em 2em 2em;
+    //     background: skyblue;
+    // }
+
+}
 }
