@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Play");
 @import url("https://fonts.googleapis.com/css?family=Play");
 @import url("https://fonts.googleapis.com/css?family=Play");
+@import url("https://fonts.googleapis.com/css?family=Play");
+@import url("https://fonts.googleapis.com/css?family=Play");
+@import url("https://fonts.googleapis.com/css?family=Play");
 body {
   display: -ms-grid;
   display: grid;
@@ -223,8 +226,572 @@ body .contactMe .address {
   float: left;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 16;
+        grid-template-columns: 16;
+    -ms-grid-rows: 16;
+        grid-template-rows: 16;
+    margin: 0px;
+    font-family: 'Play', sans-serif;
+  }
+  body header {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    background-size: cover;
+  }
+  body header .intro {
+    padding: 2em;
+    color: white;
+    width: 80%;
+    float: left;
+  }
+  body header .intro h1 {
+    padding-bottom: 1em;
+  }
+  body header .intro a {
+    text-decoration: none;
+    font-size: 2em;
+    color: pink;
+    padding: 0 1em 0 0em;
+  }
+  body header .intro a:hover {
+    color: royalblue;
+  }
+  body header .intro a:active {
+    color: red;
+  }
+  body nav {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    text-align: center;
+    background: skyblue;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  body nav ul {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  body nav ul li {
+    list-style-type: none;
+    padding: 0.5em 2em 0.5em 2em;
+    font-size: 1.2em;
+  }
+  body nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  body nav ul li a:hover {
+    text-shadow: black 0.1em 0.1em 0.5em;
+  }
+  body nav ul li a:active {
+    color: red;
+  }
+  body .academicDetails {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    padding: 1em 2em 1em 2em;
+  }
+  body .academicDetails h1 {
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.01em solid red;
+    width: 48%;
+  }
+  body .academicDetails h2 {
+    padding: 1em 1em 0em 0.5em;
+  }
+  body .academicDetails .course {
+    padding: 1em 3em 1em 2em;
+    width: 100%;
+    border-bottom: 0.1em dotted #585858;
+  }
+  body .academicDetails .course button {
+    margin-left: 0em;
+    background: gray;
+    padding: 0.4em 0.8em 0.4em 0.8em;
+    border: 0.1em solid brown;
+    border-radius: 0.2em;
+    font-family: 'Play';
+    color: white;
+  }
+  body .academicDetails .course ul {
+    display: contents;
+  }
+  body .academicDetails .course ul li {
+    padding-bottom: 0.5em;
+  }
+  body .slide {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    background: black;
+    padding: 0em 1em 1.2em 1em;
+    color: white;
+  }
+  body .slide .logos {
+    text-align: center;
+  }
+  body .slide .logos i {
+    font-size: 4em;
+    padding: 0em 0.5em 0em 0.5em;
+    color: whitesmoke;
+  }
+  body .work {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    padding: 1em 2em 2em 2em;
+  }
+  body .work h1 {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.01em solid green;
+    width: 48%;
+  }
+  body .work h2 {
+    padding: 1em 1em 0em 1em;
+  }
+  body .work .workPlace {
+    padding: 0em 1em 0em 1em;
+    width: 100%;
+    border-bottom: 0.1em dotted #585858;
+    height: 35em;
+  }
+  body .work .workPlace ul {
+    display: contents;
+  }
+  body .work .workPlace ul li {
+    padding-bottom: 0.5em;
+  }
+  body .work .workPlace .duties {
+    width: 100%;
+    float: left;
+    padding: 1em 2.5em 1em 1em;
+  }
+  body .references {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    padding: 1em 2em 2em 2em;
+    background: #b1b1b1;
+  }
+  body .references h1 {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.01em solid blueviolet;
+    width: 48%;
+  }
+  body .references .shoprite {
+    width: 40%;
+    float: left;
+  }
+  body .contactMe {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    padding: 1em 2em 2em 2em;
+    background: black;
+    color: white;
+  }
+  body .contactMe h1 {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.01em solid skyblue;
+    width: 48%;
+  }
+  body .contactMe .address {
+    width: 40%;
+    float: left;
+  }
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 16;
+        grid-template-columns: 16;
+    -ms-grid-rows: 16;
+        grid-template-rows: 16;
+    margin: 0px;
+    font-family: 'Play', sans-serif;
+  }
+  body header {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    background-size: cover;
+  }
+  body header .intro {
+    padding: 2em;
+    color: white;
+    width: 80%;
+    float: left;
+  }
+  body header .intro h1 {
+    padding-bottom: 1em;
+  }
+  body header .intro a {
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+    padding: 0 1em 0 0em;
+  }
+  body header .intro a:hover {
+    color: royalblue;
+  }
+  body header .intro a:active {
+    color: red;
+  }
+  body nav {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    text-align: center;
+    background: skyblue;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  body nav ul {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  body nav ul li {
+    list-style-type: none;
+    padding: 0.5em 2em 0.5em 2em;
+    font-size: 1.2em;
+  }
+  body nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  body nav ul li a:hover {
+    text-shadow: black 0.1em 0.1em 0.5em;
+  }
+  body nav ul li a:active {
+    color: red;
+  }
+  body .academicDetails {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    padding: 1em 2em 1em 2em;
+  }
+  body .academicDetails h1 {
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.01em solid red;
+    width: 48%;
+  }
+  body .academicDetails h2 {
+    padding: 1em 1em 0em 0.5em;
+  }
+  body .academicDetails .course {
+    padding: 1em 3em 1em 2em;
+    width: 100%;
+    border-bottom: 0.1em dotted #585858;
+  }
+  body .academicDetails .course button {
+    margin-left: 0em;
+    background: gray;
+    padding: 0.4em 0.8em 0.4em 0.8em;
+    border: 0.1em solid brown;
+    border-radius: 0.2em;
+    font-family: 'Play';
+    color: white;
+  }
+  body .academicDetails .course ul {
+    display: contents;
+  }
+  body .academicDetails .course ul li {
+    padding-bottom: 0.5em;
+  }
+  body .slide {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    background: black;
+    padding: 0em 1em 1.2em 1em;
+    color: white;
+  }
+  body .slide .logos {
+    text-align: center;
+  }
+  body .slide .logos i {
+    font-size: 4em;
+    padding: 0em 0.5em 0em 0.5em;
+    color: whitesmoke;
+  }
+  body .work {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    padding: 1em 2em 2em 2em;
+  }
+  body .work h1 {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.01em solid green;
+    width: 48%;
+  }
+  body .work h2 {
+    padding: 1em 1em 0em 1em;
+  }
+  body .work .workPlace {
+    padding: 0em 1em 0em 1em;
+    width: 100%;
+    border-bottom: 0.1em dotted #585858;
+    height: 35em;
+  }
+  body .work .workPlace ul {
+    display: contents;
+  }
+  body .work .workPlace ul li {
+    padding-bottom: 0.5em;
+  }
+  body .work .workPlace .duties {
+    width: 100%;
+    float: left;
+    padding: 1em 2.5em 1em 1em;
+  }
+  body .references {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    padding: 1em 2em 2em 2em;
+    background: #b1b1b1;
+  }
+  body .references h1 {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.01em solid blueviolet;
+    width: 48%;
+  }
+  body .references .shoprite {
+    width: 40%;
+    float: left;
+  }
+  body .contactMe {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    padding: 1em 2em 2em 2em;
+    background: black;
+    color: white;
+  }
+  body .contactMe h1 {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.01em solid skyblue;
+    width: 48%;
+  }
+  body .contactMe .address {
+    width: 40%;
+    float: left;
+  }
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 16;
+        grid-template-columns: 16;
+    -ms-grid-rows: 16;
+        grid-template-rows: 16;
+    margin: 0px;
+    font-family: 'Play', sans-serif;
+  }
+  body header {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    background-size: cover;
+  }
+  body header .intro {
+    padding: 2em;
+    color: white;
+    width: 70%;
+    float: left;
+  }
+  body header .intro h1 {
+    padding-bottom: 1em;
+  }
+  body header .intro a {
+    text-decoration: none;
+    font-size: 2em;
+    color: yellow;
+    padding: 0 1em 0 0em;
+  }
+  body header .intro a:hover {
+    color: royalblue;
+  }
+  body header .intro a:active {
+    color: red;
+  }
+  body nav {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    text-align: center;
+    background: skyblue;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  body nav ul {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  body nav ul li {
+    list-style-type: none;
+    padding: 0.5em 2em 0.5em 2em;
+    font-size: 1.2em;
+  }
+  body nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  body nav ul li a:hover {
+    text-shadow: black 0.1em 0.1em 0.5em;
+  }
+  body nav ul li a:active {
+    color: red;
+  }
+  body .academicDetails {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    padding: 1em 2em 1em 2em;
+  }
+  body .academicDetails h1 {
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.01em solid red;
+    width: 48%;
+  }
+  body .academicDetails h2 {
+    padding: 1em 1em 0em 0.5em;
+  }
+  body .academicDetails .course {
+    padding: 1em 3em 1em 2em;
+    width: 100%;
+    border-bottom: 0.1em dotted #585858;
+  }
+  body .academicDetails .course button {
+    margin-left: 0em;
+    background: gray;
+    padding: 0.4em 0.8em 0.4em 0.8em;
+    border: 0.1em solid brown;
+    border-radius: 0.2em;
+    font-family: 'Play';
+    color: white;
+  }
+  body .academicDetails .course ul {
+    display: contents;
+  }
+  body .academicDetails .course ul li {
+    padding-bottom: 0.5em;
+  }
+  body .slide {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    background: black;
+    padding: 0em 1em 1.2em 1em;
+    color: white;
+  }
+  body .slide .logos {
+    text-align: center;
+  }
+  body .slide .logos i {
+    font-size: 4em;
+    padding: 0em 0.5em 0em 0.5em;
+    color: whitesmoke;
+  }
+  body .work {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    padding: 1em 2em 2em 2em;
+  }
+  body .work h1 {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.01em solid green;
+    width: 48%;
+  }
+  body .work h2 {
+    padding: 1em 1em 0em 1em;
+  }
+  body .work .workPlace {
+    padding: 0em 1em 0em 1em;
+    width: 100%;
+    border-bottom: 0.1em dotted #585858;
+    height: 35em;
+  }
+  body .work .workPlace ul {
+    display: contents;
+  }
+  body .work .workPlace ul li {
+    padding-bottom: 0.5em;
+  }
+  body .work .workPlace .duties {
+    width: 100%;
+    float: left;
+    padding: 1em 2.5em 1em 1em;
+  }
+  body .references {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    padding: 1em 2em 2em 2em;
+    background: #b1b1b1;
+  }
+  body .references h1 {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.01em solid blueviolet;
+    width: 48%;
+  }
+  body .references .shoprite {
+    width: 40%;
+    float: left;
+  }
+  body .contactMe {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+    padding: 1em 2em 2em 2em;
+    background: black;
+    color: white;
+  }
+  body .contactMe h1 {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.01em solid skyblue;
+    width: 48%;
+  }
+  body .contactMe .address {
+    width: 40%;
+    float: left;
+  }
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   body {
@@ -311,11 +878,11 @@ body .contactMe .address {
   }
   body .academicDetails .course {
     padding: 1em 3em 1em 2em;
-    width: 40%;
-    float: left;
+    width: 100%;
+    border-bottom: 0.1em dotted #585858;
   }
   body .academicDetails .course button {
-    margin-left: 14em;
+    margin-left: 0em;
     background: gray;
     padding: 0.4em 0.8em 0.4em 0.8em;
     border: 0.1em solid brown;
